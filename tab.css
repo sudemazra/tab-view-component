@@ -1,0 +1,25 @@
+tab-header {
+    display: flex;
+}
+
+tab-head {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #777372;
+    border-bottom: 0;
+}
+
+tab-content {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #777372;
+    display: none;
+}
+
+tab-content[state="active-content"] {
+    display: block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}

@@ -1,0 +1,42 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 50%;
+    height: 500px;
+    margin: 120px auto;
+    position: relative;
+    text-align: center;
+}
+
+tab-head[state="active-button"] {
+    background-color: #777372;
+    color: #fff;
+}
+
+tab-content[state="active-content"]  {
+    background-color: #777372;
+    color: #fff;
+    border: 1px solid #777372;
+}
+
+tab-head {
+    padding: 14px 16px;
+    margin-right: 1px;
+}
+
+tab-head:hover {
+    background-color: #777372;
+    color: #fff;
+    cursor: pointer;
+}
+tab-head {
+    font-weight: bold;
+}
+
+tab-content {
+    text-align: center;
+    background-color: #777372;
+    color: #fff;
+}
