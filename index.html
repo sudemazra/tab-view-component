@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="site.css">
+    <title>Tab View Component Project</title>
+</head>
+<body>
+    <tab-container tab-name="myTab">
+        <tab-header role="button">
+            <tab-head target-tab="first-tab-button" button-id="first" state="active-button" aria-expanded="true" aria-controls="first-content" aria-selected="true">FIRST</tab-head>
+            <tab-head target-tab="second-tab-button" button-id="second" aria-expanded="false" aria-controls="second-content" aria-selected="false">SECOND</tab-head>
+            <tab-head target-tab="third-tab-button" button-id="third" aria-expanded="false" aria-controls="third-content" aria-selected="false">THIRD</tab-head>
+        </tab-header>
+        <tab-body>
+            <tab-content tab-name="first-tab-content" state="active-content" aria-labelledby="first-tab-button" aria-hidden="false">
+                <h2>First Content</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti sunt dolorum nesciunt, consequatur cum odio quod ipsa fugiat quasi neque pariatur! Saepe corporis 
+                magni iure. Inventore, voluptatibus fugit quis, in ratione sed maxime delectus ipsa soluta porro fuga aliquam!</p>
+            </tab-content>
+
+            <tab-content tab-name="second-tab-content" aria-labelledby="second-tab-button" aria-hidden="true">
+                <h2>Second Content</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odit placeat similique quos excepturi, dolore quaerat explicabo! Nesciunt illo corporis laudantium eligendi 
+                est distinctio labore repudiandae tempora, assumenda, consectetur voluptas, maxime a? Neque magnam exercitationem veritatis temporibus officia dolores blanditiis?</p>
+            </tab-content>
+
+            <tab-content tab-name="third-tab-content" aria-labelledby="third-tab-button" aria-hidden="true">
+                <h2>Third Content</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo nisi sapiente quis aperiam. Autem enim nisi veritatis perferendis. Magnam sequi repellat tenetur 
+                fugit, soluta quasi dolorem pariatur, possimus voluptas sint ratione incidunt nemo! Praesentium vero tenetur beatae earum libero.</p>
+            </tab-content>
+        </tab-body>
+    </tab-container>
+</body>
+</html>
